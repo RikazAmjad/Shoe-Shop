@@ -1,0 +1,171 @@
+body{
+    margin-top: 7%;
+}
+/* search bar */
+.SearchBox{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 0;
+}
+
+.SearchBox form{
+    display: flex;
+}
+
+.SearchBox form input{
+    width: 35vw;
+    height: 5vh;
+    border: none;
+    outline: none;
+    padding: 0 15px;
+    background-color: transparent;
+    font-size: x-large;
+    color: white;
+    text-transform: capitalize;
+    border-bottom: 1px solid white;
+    transition: all ease-in-out 0.5s;
+}
+
+
+.SearchBox form button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 5vw;
+    border: none;
+    outline: none;
+    font-size: x-large;
+    background-color: rgb(1, 157, 230);
+    color: white;
+}
+
+.SearchBox form button:hover{
+    cursor: pointer;
+    border: 2px solid white;
+    width: 4.9vw;
+}
+
+/* search bar */
+
+
+/* banner */
+.banner{
+    width: 100%;
+    height: auto;
+    margin-top: 10px;
+}
+
+.banner .bannerText{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner .bannerText h1{
+    margin-top: 2px;
+}
+
+.banner .bannerText h3{
+    margin-top: 10px;
+}
+
+/* banner */
+
+
+/* Products */
+
+.products{
+    margin: 10% 5%;
+}
+
+
+.title{
+    font-size: 1.5em;
+    color: #e8e8e8;
+    margin: 3% 5%;
+}
+
+
+/* Products */
+
+
+
+
+
+
+footer{
+    margin-top: 250px;
+}
+
+
+
+
+@media only screen and (max-width: 768px){
+    .SearchBox form{
+        width: 70%;
+    }
+
+    .SearchBox form input{
+        width: 88%;
+    }
+
+    .SearchBox form button{
+        width: 10%;
+    }
+}
+
+@media only screen and (max-width: 426px){
+    .SearchBox, .SearchBox form{
+        width: 470px;
+        justify-content: center;
+    }
+
+    .SearchBox form input{
+        width: 65%;
+    }
+
+    .SearchBox form button{
+        width: 10%;
+    }
+
+    .banner{
+        background-color: aliceblue;
+    }
+
+    .banner .bannerText{
+        margin-right: -35px;
+    }
+
+    .banner .bannerText h3{
+        font-size: 1.1rem;
+    }
+
+    #products{
+        margin-top: 40%;
+    }
+}
+
+@media only screen and (max-width: 376px){
+    .banner .bannerText{
+        margin-right: -87px;
+    }
+    #products{
+        margin-top: 50%;
+    }
+}
+
+
+@media only screen and (max-width: 321px){
+    .banner .bannerText{
+        width: 100%;
+        margin-right: -127px;
+        text-align: center;
+    }
+    #products{
+        margin-top: 80%;
+    }
+}

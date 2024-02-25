@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/c486b85803.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <title>Kids</title>
+    <link rel="stylesheet" href="../Css/csd.css">
+    <link rel="stylesheet" href="../Css/men.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+
+
+    <!-- header -->
+        
+    <div class="header-section" id="header-section">
+        <div class="header" id="header">
+            <div class="left">
+                <div class="logo" id="logo">
+                    <a href="#"><img src="../Images/logo.png" alt=""/></a>
+                </div>
+            </div>
+
+            <div class="center">
+                <div class="links" id="links">
+                    <ul>
+                        <a href="index.html"><li>Home</li></a>
+                        <a href="menPage.html"><li>Men</li></a>
+                        <a href="womenPage.html"><li>Women</li></a>
+                        <a href="Kids.html"><li>Kids</li></a>
+                        <a href="aboutUs.html"><li>About</li></a>
+                        <a href="cart.html"><li><i class="fa fa-cart-shopping"></i><sup>0</sup></li></a>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="right">
+                <button class="signin" id="signin">Login</button>
+                <button class="menu-icon" id="menu-icon" onclick="toggleMobileMenu()">&#9776;</button>
+            </div>
+        </div>
+
+
+        
+</div>
+<div class="sidebar" id="sidebar">
+    <div class="sidebar-content">
+    <div class="links" id="links">
+        <ul>
+        <a href="index.html"><li>Home</li></a>
+        <a href="menPage.html"><li>Men</li></a>
+        <a href="womenPage.html"><li>Women</li></a>
+        <a href="Kids.html"><li>Kids</li></a>
+        <a href="aboutUs.html"><li>About</li></a>
+        <a href="cart.html"><li><i class="fa fa-cart-shopping"></i><sup></sup></li></a>
+        </ul>
+    </div>
+    <button class="signin" id="signin">Login</button>
+    </div>
+</div>
+
+<script>
+    function toggleMobileMenu() {
+    var sidebar = document.getElementById("sidebar");
+    sidebar.classList.toggle("active");
+    }
+</script>
+<!-- header -->
+
+
+
+    <!-- banner -->
+    <div class="banner" id="banner">
+            <div class="bannerText">
+                <h1>All You Want Is Here</h1>
+                <h3>From shoes to accessories, redefine your style effortlessly</h3>
+                <button class="shop-Now" id="shop-Now" style="margin-top: 3%;">Shop Now</button>
+            </div>
+    </div>
+    <!-- banner -->
+
+
+
+    <!-- products -->
+
+    <!-- <div class="products" id="products">
+        <div class="title">
+            <h3>The Foundation Of Comfort And Stability Lies In Our Innovative Shoe Bases</h3>
+        </div>
+        <div class="cards">
+            <div class="card">
+                <div class="label">New</div>
+                <div class="img"><img src="../Images/1.png" alt=""></div>
+                <div class="card-bottom animate__flipInX">
+                    <p>$200.00</p>
+                    <button class="view"><i class="fa-solid fa-eye"></i></button>
+                    <button class="addtocart" id="addtocart"><i class="fa-solid fa-cart-arrow-down"></i></button>
+                    <button class="addToWish" id="addToWish"><i class="fa-solid fa-heart"></i></button>
+                </div>
+            </div>
+            <div class="card">
+                <div class="label">New</div>
+                <div class="img"><img src="../Images/1.png" alt=""></div>
+                <div class="card-bottom animate__flipInX">
+                    <p>$200.00</p>
+                    <button class="view"><i class="fa-solid fa-eye"></i></button>
+                    <button class="addtocart" id="addtocart"><i class="fa-solid fa-cart-arrow-down"></i></button>
+                    <button class="addToWish" id="addToWish"><i class="fa-solid fa-heart"></i></button>
+                </div>
+            </div>
+            <div class="card">
+                <div class="label">New</div>
+                <div class="img"><img src="../Images/1.png" alt=""></div>
+                <div class="card-bottom animate__flipInX">
+                    <p>$200.00</p>
+                    <button class="view"><i class="fa-solid fa-eye"></i></button>
+                    <button class="addtocart" id="addtocart"><i class="fa-solid fa-cart-arrow-down"></i></button>
+                    <button class="addToWish" id="addToWish"><i class="fa-solid fa-heart"></i></button>
+                </div>
+            </div>
+            <div class="card">
+                <div class="label">New</div>
+                <div class="img"><img src="../Images/1.png" alt=""></div>
+                <div class="card-bottom animate__flipInX">
+                    <p>$200.00</p>
+                    <button class="view"><i class="fa-solid fa-eye"></i></button>
+                    <button class="addtocart" id="addtocart"><i class="fa-solid fa-cart-arrow-down"></i></button>
+                    <button class="addToWish" id="addToWish"><i class="fa-solid fa-heart"></i></button>
+                </div>
+            </div>
+        </div>
+    
+        <div class="title">
+            <h3>Chromatic Palette for Model 001: Elevate Your Style</h3>
+        </div>
+        <div class="cards">
+            <div class="card">
+                <div class="label">New</div>
+                <div class="img"><img src="../Images/1.png" alt=""></div>
+                <div class="card-bottom animate__flipInX">
+                    <p>$200.00</p>
+                    <button class="view"><i class="fa-solid fa-eye"></i></button>
+                    <button class="addtocart" id="addtocart"><i class="fa-solid fa-cart-arrow-down"></i></button>
+                    <button class="addToWish" id="addToWish"><i class="fa-solid fa-heart"></i></button>
+                </div>
+            </div>
+            <div class="card">
+                <div class="label">New</div>
+                <div class="img"><img src="../Images/1.png" alt=""></div>
+                <div class="card-bottom animate__flipInX">
+                    <p>$200.00</p>
+                    <button class="view"><i class="fa-solid fa-eye"></i></button>
+                    <button class="addtocart" id="addtocart"><i class="fa-solid fa-cart-arrow-down"></i></button>
+                    <button class="addToWish" id="addToWish"><i class="fa-solid fa-heart"></i></button>
+                </div>
+            </div>
+            <div class="card">
+                <div class="label">New</div>
+                <div class="img"><img src="../Images/1.png" alt=""></div>
+                <div class="card-bottom animate__flipInX">
+                    <p>$200.00</p>
+                    <button class="view"><i class="fa-solid fa-eye"></i></button>
+                    <button class="addtocart" id="addtocart"><i class="fa-solid fa-cart-arrow-down"></i></button>
+                    <button class="addToWish" id="addToWish"><i class="fa-solid fa-heart"></i></button>
+                </div>
+            </div>
+            <div class="card">
+                <div class="label">New</div>
+                <div class="img"><img src="../Images/1.png" alt=""></div>
+                <div class="card-bottom animate__flipInX">
+                    <p>$200.00</p>
+                    <button class="view"><i class="fa-solid fa-eye"></i></button>
+                    <button class="addtocart" id="addtocart"><i class="fa-solid fa-cart-arrow-down"></i></button>
+                    <button class="addToWish" id="addToWish"><i class="fa-solid fa-heart"></i></button>
+                </div>
+            </div>
+        </div>
+
+        <div class="title">
+            <h3>Chromatic Palette for Model 001: Elevate Your Style</h3>
+        </div>
+        <div class="cards">
+            <div class="card">
+                <div class="label">New</div>
+                <div class="img"><img src="../Images/1.png" alt=""></div>
+                <div class="card-bottom animate__flipInX">
+                    <p>$200.00</p>
+                    <button class="view"><i class="fa-solid fa-eye"></i></button>
+                    <button class="addtocart" id="addtocart"><i class="fa-solid fa-cart-arrow-down"></i></button>
+                    <button class="addToWish" id="addToWish"><i class="fa-solid fa-heart"></i></button>
+                </div>
+            </div>
+            <div class="card">
+                <div class="label">New</div>
+                <div class="img"><img src="../Images/1.png" alt=""></div>
+                <div class="card-bottom animate__flipInX">
+                    <p>$200.00</p>
+                    <button class="view"><i class="fa-solid fa-eye"></i></button>
+                    <button class="addtocart" id="addtocart"><i class="fa-solid fa-cart-arrow-down"></i></button>
+                    <button class="addToWish" id="addToWish"><i class="fa-solid fa-heart"></i></button>
+                </div>
+            </div>
+            <div class="card">
+                <div class="label">New</div>
+                <div class="img"><img src="../Images/1.png" alt=""></div>
+                <div class="card-bottom animate__flipInX">
+                    <p>$200.00</p>
+                    <button class="view"><i class="fa-solid fa-eye"></i></button>
+                    <button class="addtocart" id="addtocart"><i class="fa-solid fa-cart-arrow-down"></i></button>
+                    <button class="addToWish" id="addToWish"><i class="fa-solid fa-heart"></i></button>
+                </div>
+            </div>
+            <div class="card">
+                <div class="label">New</div>
+                <div class="img"><img src="../Images/1.png" alt=""></div>
+                <div class="card-bottom animate__flipInX">
+                    <p>$200.00</p>
+                    <button class="view"><i class="fa-solid fa-eye"></i></button>
+                    <button class="addtocart" id="addtocart"><i class="fa-solid fa-cart-arrow-down"></i></button>
+                    <button class="addToWish" id="addToWish"><i class="fa-solid fa-heart"></i></button>
+                </div>
+            </div>
+        </div>
+
+        <div class="title">
+            <h3>Chromatic Palette for Model 001: Elevate Your Style</h3>
+        </div>
+        <div class="cards">
+            <div class="card">
+                <div class="label">New</div>
+                <div class="img"><img src="../Images/1.png" alt=""></div>
+                <div class="card-bottom animate__flipInX">
+                    <p>$200.00</p>
+                    <button class="view"><i class="fa-solid fa-eye"></i></button>
+                    <button class="addtocart" id="addtocart"><i class="fa-solid fa-cart-arrow-down"></i></button>
+                    <button class="addToWish" id="addToWish"><i class="fa-solid fa-heart"></i></button>
+                </div>
+            </div>
+            <div class="card">
+                <div class="label">New</div>
+                <div class="img"><img src="../Images/1.png" alt=""></div>
+                <div class="card-bottom animate__flipInX">
+                    <p>$200.00</p>
+                    <button class="view"><i class="fa-solid fa-eye"></i></button>
+                    <button class="addtocart" id="addtocart"><i class="fa-solid fa-cart-arrow-down"></i></button>
+                    <button class="addToWish" id="addToWish"><i class="fa-solid fa-heart"></i></button>
+                </div>
+            </div>
+            <div class="card">
+                <div class="label">New</div>
+                <div class="img"><img src="../Images/1.png" alt=""></div>
+                <div class="card-bottom animate__flipInX">
+                    <p>$200.00</p>
+                    <button class="view"><i class="fa-solid fa-eye"></i></button>
+                    <button class="addtocart" id="addtocart"><i class="fa-solid fa-cart-arrow-down"></i></button>
+                    <button class="addToWish" id="addToWish"><i class="fa-solid fa-heart"></i></button>
+                </div>
+            </div>
+            <div class="card">
+                <div class="label">New</div>
+                <div class="img"><img src="../Images/1.png" alt=""></div>
+                <div class="card-bottom animate__flipInX">
+                    <p>$200.00</p>
+                    <button class="view"><i class="fa-solid fa-eye"></i></button>
+                    <button class="addtocart" id="addtocart"><i class="fa-solid fa-cart-arrow-down"></i></button>
+                    <button class="addToWish" id="addToWish"><i class="fa-solid fa-heart"></i></button>
+                </div>
+            </div>
+        </div>
+    </div> -->
+
+    <!-- Products -->
+
+
+
+        <!-- products -->
+        <div class="products">
+
+            <div class="kidsShoe">
+                <h3 class="title">KIDS | Attract You More</h3>
+                <div class="cards" id="kids-row1"></div>
+                <div class="cards" id="kids-row2"></div>
+            </div>
+    
+        </div>
+        <!-- Products -->
+
+
+
+
+
+    
+
+
+    <!-- footer -->
+    <footer>
+        <div class="footermain">
+            <div class="footer-top">
+                <div class="joining-text">
+                    <i>JOIN OUR COMMUNITY</i>
+                </div>
+                <div class="links">
+                    <ul>
+                        <li><a href="#">About us</a></li>
+                        <li><a href="#">faq</a></li>
+                        <li><a href="#">contact us</a></li>
+                        <li><a href="#">events</a></li>
+                    </ul>
+                    <ul>
+                        <li><a href="#">About us</a></li>
+                        <li><a href="#">faq</a></li>
+                        <li><a href="#">contact us</a></li>
+                    </ul>
+                    <ul>
+                        <li><a href="#">About us</a></li>
+                        <li><a href="#">faq</a></li>
+                        <li><a href="#">contact us</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footerCenter">
+                <div class="centerText">
+                    <i>SHOE-SHOP</i>
+                </div>
+            </div>
+            <div class="footerBottom">
+                <div class="copyRight">
+                    © 2021 SHOE-SHOP | All rights reserved.
+                </div>
+                <div class="socialIcons">
+                    <a href="#"><img src="../Images/facebook.png" alt="" /></a>
+                    <a href="#"><img src="../Images/twitter.png" alt="" /></a>
+                    <a href="#"><img src="../Images/instagram.png" alt="" /></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- footer -->
+
+
+    
+
+    <script src="../JS/functionality.js"></script>
+</body>
+</html>
+
+
